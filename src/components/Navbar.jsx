@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="text-cyan-400 font-extrabold text-2xl tracking-wide">
-          MyPortfolio
+          Zulfikar Azmi
         </div>
         
         {/* Navigation Links */}
