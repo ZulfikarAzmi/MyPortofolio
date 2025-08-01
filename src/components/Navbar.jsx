@@ -25,7 +25,7 @@ const Navbar = () => {
                         flex items-center space-x-2"
         >
           <span className="bg-cyan-500 w-3 h-3 rounded-full animate-pulse"></span>
-          <span>Zulfikar Azmi</span>
+          <span>Zulfikar Azmi Alghifari</span>
         </div>
 
         {/* Mobile Menu Toggle */}

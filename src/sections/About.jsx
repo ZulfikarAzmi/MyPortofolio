@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from "../assets/portophoto.jpg";
+import myPhoto from "../assets/hackathon1.jpg";
 
 const About = () => {
   return (
@@ -43,36 +43,18 @@ const About = () => {
           <h2
             className="text-4xl lg:text-5xl font-bold text-white"
           >
-            Tentang <span className="text-cyan-400">Saya</span>
+            About <span className="text-cyan-400">Me</span>
           </h2>
         </div>
 
         <div className="space-y-4">
           <p className="text-lg text-gray-300 leading-relaxed">
-          Saya adalah pelajar yang sedang mendalami backend development dan data, dengan fokus pada teknologi seperti Laravel, Node.js, serta pengelolaan database. Saya tertarik memahami cara kerja sistem di balik layar dan bagaimana data dapat diolah menjadi informasi yang bernilai.
+             I’m a vocational high school graduate majoring in Software Engineering (RPL). With a strong foundation in web development, I enjoy building clean, responsive, and user-friendly applications. I’m always excited to learn new things, collaborate with others, and grow through real-world experiences. Currently, I’m looking for opportunities to contribute, learn from industry professionals, and work on meaningful projects. Let’s build something cool together! 
           </p>
         </div>
 
-        {/* Tombol Skills */}
-        <div className="flex justify-center lg:justify-start space-x-4">
-          <button
-            className="bg-cyan-500 text-white px-8 py-3 
-                             rounded-full shadow-lg hover:bg-cyan-600 
-                             transition transform hover:scale-105 
-                             focus:outline-none focus:ring-2 
-                             focus:ring-cyan-400 focus:ring-opacity-50"
-          >
-            Lihat Skills
-          </button>
-          <button
-            className="border-2 border-cyan-500 text-cyan-500 
-                             px-8 py-3 rounded-full hover:bg-cyan-500 
-                             hover:text-white transition transform 
-                             hover:scale-105 focus:outline-none"
-          >
-            Download CV
-          </button>
-        </div>
+       
+        
       </div>
     </section>
   );
