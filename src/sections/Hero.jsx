@@ -4,7 +4,7 @@ import myphoto from "../assets/myphoto.jpg";
 const Hero = () => {
   return (
     <section
-      id="hero"
+      id="home"
       className="min-h-screen flex flex-col md:flex-row items-center justify-center 
                  px-6 md:px-20 py-16 bg-gradient-to-br from-gray-900 to-cyan-900"
     >
@@ -22,27 +22,21 @@ const Hero = () => {
           </div>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-xl">
-            I’m a vocational high school graduate majoring in Software Engineering (RPL), currently seeking opportunities to collaborate and grow as a Junior Web Developer.
+            I’m a vocational high school graduate majoring in Software
+            Engineering (RPL), currently seeking opportunities to collaborate
+            and grow as a Junior Web Developer.
           </p>
 
           <div className="flex justify-center md:justify-start space-x-4">
-            <button
-              className="bg-cyan-500 text-white px-8 py-3 
-                               rounded-full shadow-lg hover:bg-cyan-600 
-                               transition transform hover:scale-105 
-                               focus:outline-none focus:ring-2 
-                               focus:ring-cyan-400 focus:ring-opacity-50"
+            <a
+              href="/CV_Zulfikar_Azmi.pdf"
+              download
+              className="inline-block px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 
+             text-white font-medium shadow-lg hover:shadow-xl 
+             transition duration-300 transform hover:scale-105"
             >
-              Explore More
-            </button>
-            <button
-              className="border-2 border-cyan-500 text-cyan-500 
-                               px-8 py-3 rounded-full hover:bg-cyan-500 
-                               hover:text-white transition transform 
-                               hover:scale-105 focus:outline-none"
-            >
-              Contact Me
-            </button>
+              Download CV
+            </a>
           </div>
         </div>
 

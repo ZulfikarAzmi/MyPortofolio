@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import cbt1 from "../assets/projects/cbt/cbt1.png";
+
 
 const Projects = () => {
   const projectList = [
@@ -8,7 +10,9 @@ const Projects = () => {
       description:
         "A web-based exam system with support for multiple-choice questions, image options, auto-grading, and admin management. Built using Laravel, React, and Inertia.js.",
       techStack: ["React", "Laravel", "Tailwind", "MySQL"],
-      githubLink: "",    },
+      githubLink: "",  
+      image: cbt1,
+    },
     // Tambah project lain di sini
   ];
 

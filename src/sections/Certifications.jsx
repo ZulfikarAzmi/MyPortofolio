@@ -2,12 +2,19 @@ import React from 'react';
 import CertificationCard from '../components/CertificationCard';
 
 import freecodecamp from '../assets/certifications/freecodecamp.png';
+import pbi from '../assets/certifications/pbi.jpg';
+import intern from '../assets/certifications/intern-certificate.jpg';
 
 const Certifications = () => {
   const certifications = [
     {
       image: freecodecamp,
-      title: 'Data Analyst with Python',
+    },
+    {
+      image: pbi,
+    },
+    {
+      image: intern,
     }
   ];
 
