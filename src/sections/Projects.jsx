@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import cbt1 from "../assets/projects/cbt/cbt1.png";
+import goapi from "../assets/projects/go-api/res-api.png";
 
 
 const Projects = () => {
@@ -13,7 +14,15 @@ const Projects = () => {
       githubLink: "",  
       image: cbt1,
     },
-    // Tambah project lain di sini
+     {
+      title: "Simple Ecommerce API",
+      description:
+        "A simple e-commerce API built with Go and Fiber, designed to manage users, stores, products, categories, addresses, and transactions. The API includes JWT authentication, database management with GORM, and product image upload support.",
+      techStack: ["Golang", "MySQL"],
+      githubLink: "https://github.com/ZulfikarAzmi/go-ecommerce-api",  
+      image: goapi,
+    },
+    
   ];
 
   return (
