@@ -1,6 +1,6 @@
 import React from "react";
-import { FaLaravel, FaNodeJs, FaGithub } from "react-icons/fa";
-import { SiMysql, SiPostman, SiGo } from "react-icons/si";
+import { FaLaravel, FaNodeJs, FaGithub, FaReact } from "react-icons/fa";
+import { SiMysql, SiPostman, SiGo, SiPostgresql } from "react-icons/si";
 
 const skills = [
   { name: "Laravel", icon: <FaLaravel className="text-red-500" /> },
@@ -9,6 +9,8 @@ const skills = [
   { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
   { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
   { name: "Go", icon: <SiGo className="text-cyan-500" /> },
+  { name: "React", icon: <FaReact className="text-cyan-400" /> },
+  { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-400" /> },
 ];
 
 const Skills = () => {
@@ -22,7 +24,8 @@ const Skills = () => {
         My <span className="text-cyan-400">Tech Stack</span>
       </h2>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+      {/* Grid jadi 4 kolom di desktop */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skills.map((skill, index) => (
           <div
             key={index}

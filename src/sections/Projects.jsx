@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import cbt1 from "../assets/projects/cbt/cbt1.png";
 import goapi from "../assets/projects/go-api/res-api.png";
+import lms from "../assets/projects/mini-lms/mini-lms.png";
 
 
 const Projects = () => {
@@ -22,7 +23,14 @@ const Projects = () => {
       githubLink: "https://github.com/ZulfikarAzmi/go-ecommerce-api",  
       image: goapi,
     },
-    
+    {
+      title: "Mini - LMS",
+      description:
+        "A lightweight Learning Management System built with React and Firebase, designed to provide a seamless learning experience. The platform includes course management, quizzes, progress tracking, and authentication, with a clean and responsive UI powered by Tailwind CSS.",
+      techStack: ["React JS", "Firebase", "Tailwind"],
+      githubLink: "https://github.com/ZulfikarAzmi/lms-frontend",  
+      image: lms,
+    },
   ];
 
   return (
