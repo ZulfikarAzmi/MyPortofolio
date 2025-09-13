@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import cbt1 from "../assets/projects/cbt/cbt1.png";
 import goapi from "../assets/projects/go-api/res-api.png";
 import lms from "../assets/projects/mini-lms/mini-lms.png";
+import movie from "../assets/projects/movie-app/movieApp.png";
 
 
 const Projects = () => {
@@ -30,6 +31,14 @@ const Projects = () => {
       techStack: ["React JS", "Firebase", "Tailwind"],
       githubLink: "https://github.com/ZulfikarAzmi/lms-frontend",  
       image: lms,
+    },
+    {
+      title: "Movie App",
+      description:
+        "Movieblitz App is a web application built with Next.js 14 (App Router) that connects to the TMDB API to search and display detailed movie information including posters, trailers, cast, and recommendations.",
+      techStack: ["Next JS", "Tailwind"],
+      githubLink: "https://github.com/ZulfikarAzmi/next-movie-app",  
+      image: movie,
     },
   ];
 

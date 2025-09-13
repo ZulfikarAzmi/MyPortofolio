@@ -7,6 +7,8 @@ import intern from '../assets/certifications/intern-certificate.jpg';
 import webDesign from '../assets/certifications/ResponsiveWebDesign.png';
 import basicWeb from '../assets/certifications/FundamentalWeb.jpg';
 import IBM from '../assets/certifications/IBM-SkillsBuild.jpg';
+import dicodingAWS from '../assets/certifications/dicoding-aws.jpg';
+import fccCS from '../assets/certifications/fcc-cs.png';
 
 
 const Certifications = () => {
@@ -28,6 +30,12 @@ const Certifications = () => {
     },
     {
       image: IBM,
+    },
+    {
+      image: dicodingAWS,
+    },
+    {
+      image: fccCS,
     }
   ];
 

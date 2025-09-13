@@ -24,8 +24,8 @@ const Navbar = () => {
           className="text-cyan-400 font-bold text-2xl tracking-wide 
                         flex items-center space-x-2"
         >
-          <span className="bg-cyan-500 w-3 h-3 rounded-full animate-pulse"></span>
-          <span>Zulfikar Azmi Alghifari</span>
+          {/* <span className="bg-cyan-500 w-3 h-3 rounded-full animate-pulse"></span> */}
+          <span>Zulfikar Azmi</span>
         </div>
 
         {/* Mobile Menu Toggle */}
